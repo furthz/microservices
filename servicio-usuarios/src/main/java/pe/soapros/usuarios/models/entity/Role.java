@@ -1,4 +1,4 @@
-package pe.soapros.usuarios.commons.models.entity;
+package pe.soapros.usuarios.models.entity;
 
 import java.io.Serializable;
 
@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "roles")
-public class Rol implements Serializable {
+public class Role implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,6 +36,6 @@ public class Rol implements Serializable {
 		this.nombre = nombre;
 	}
 
-	private static final long serialVersionUID = 598219022710240942L;
+	private static final long serialVersionUID = 4467531611801172710L;
 
 }

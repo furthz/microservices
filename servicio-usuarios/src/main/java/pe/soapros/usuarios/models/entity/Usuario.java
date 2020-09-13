@@ -1,4 +1,4 @@
-package pe.soapros.usuarios.commons.models.entity;
+package pe.soapros.usuarios.models.entity;
 
 import java.io.Serializable;
 import java.util.List;
@@ -26,7 +26,7 @@ public class Usuario implements Serializable {
 	@Column(unique = true, length = 20)
 	private String username;
 
-	@Column(length = 60)
+	@Column(length = 200)
 	private String password;
 
 	private Boolean enabled;
